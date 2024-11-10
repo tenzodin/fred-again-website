@@ -1,0 +1,72 @@
+/* src/components/Music.css */
+
+.music-page {
+    padding: 2em;
+    background-color: #fff;
+    min-height: 100vh;
+  }
+  
+  .music-page h1 {
+    text-align: center;
+    margin-bottom: 1.5em;
+    color: #1F2937;
+  }
+  
+  .album-section {
+    text-align: center;
+  }
+  
+  .album-section h2 {
+    font-size: 2em;
+    margin-bottom: 1em;
+    color: #1F2937;
+  }
+  
+  /* Masonry grid styles */
+  .my-masonry-grid {
+    display: flex;
+    margin-left: -30px; /* gutter size offset */
+    width: auto;
+  }
+  
+  .my-masonry-grid_column {
+    padding-left: 30px; /* gutter size */
+    background-clip: padding-box;
+  }
+  
+  /* Style your masonry items */
+  .album {
+    background: #fff;
+    margin-bottom: 30px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .album:hover {
+    transform: scale(1.05);
+  }
+  
+  .album img {
+    width: 100%;
+    display: block;
+    border-radius: 4px;
+  }
+  
+  .album p {
+    padding: 0.5em;
+    font-size: 0.9em;
+    color: #1F2937;
+    text-align: center;
+  }
+  
+  /* Responsive Adjustments */
+  @media (max-width: 768px) {
+    .my-masonry-grid {
+      margin-left: -15px; /* Adjust gutter size */
+    }
+  
+    .my-masonry-grid_column {
+      padding-left: 15px; /* Adjust gutter size */
+    }
+  }
+  

@@ -1,0 +1,29 @@
+/* Masonry Grid Styles */
+.my-masonry-grid {
+  display: flex;
+  margin-left: -10px; /* Adjust gutter size */
+  width: auto;
+}
+
+.my-masonry-grid_column {
+  padding-left: 10px; /* Adjust gutter size */
+  background-clip: padding-box;
+}
+
+/* Optional: Style individual items */
+.lightbox-image {
+  margin-bottom: 10px; /* Adjust vertical spacing */
+  cursor: pointer;
+}
+
+.lightbox-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 4px; /* Optional: Rounded corners */
+  transition: transform 0.3s ease;
+}
+
+.lightbox-image img:hover {
+  transform: scale(1.05); /* Optional: Zoom effect on hover */
+}

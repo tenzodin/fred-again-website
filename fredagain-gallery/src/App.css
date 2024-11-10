@@ -1,0 +1,19 @@
+/* General Styles */
+.App {
+  font-family: "Arimo", sans-serif;
+  background-color: #f0f0f0; /* Light mode background */
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Optional: Global Reset */
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}

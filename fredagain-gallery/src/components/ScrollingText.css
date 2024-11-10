@@ -1,0 +1,41 @@
+/* src/components/ScrollingText.css */
+
+.scrolling-text {
+    font-family: "Arimo", sans-serif;
+    position: fixed;
+    top: 31%;
+    left: 100%; /* Start off-screen to the right */
+    white-space: nowrap;
+    font-size: 20em; /* Adjust as needed */
+    font-weight: bold;
+    color: #5281EB;
+    text-align: center;
+    transform: translateX(-3%);
+    animation: scroll-left 50s linear infinite;
+    z-index: 999; /* Ensure it's above other content but below modals */
+    pointer-events: none; /* Allows clicks to pass through */
+  }
+  
+  @keyframes scroll-left {
+    0% {
+      left: 100%; /* Start from the right */
+    }
+    100% {
+      left: -100%; /* Move to the left, off-screen */
+    }
+  }
+  
+  /* Responsive Adjustments */
+  @media (max-width: 768px) {
+    .scrolling-text {
+      font-size: 5em;
+      animation: scroll-left 20s linear infinite; /* Faster on smaller screens */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .scrolling-text {
+      font-size: 3em;
+    }
+  }
+  
