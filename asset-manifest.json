@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/fred-again-website/static/css/main.7a58e48f.css",
+    "main.js": "/fred-again-website/static/js/main.f188b553.js",
+    "index.html": "/fred-again-website/index.html",
+    "main.7a58e48f.css.map": "/fred-again-website/static/css/main.7a58e48f.css.map",
+    "main.f188b553.js.map": "/fred-again-website/static/js/main.f188b553.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7a58e48f.css",
+    "static/js/main.f188b553.js"
+  ]
+}
