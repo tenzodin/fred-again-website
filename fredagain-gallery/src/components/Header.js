@@ -13,7 +13,7 @@ const Header = () => {
               Tour
             </Link>
           </li>
-          <li><a href="/music">Music</a></li>
+          <li><a href="/Music.js">Music</a></li>
           <li><a href="https://www.levellr.com/fred-again">Discord</a></li>
         </ul>
       </div>
